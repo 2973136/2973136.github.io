@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #455945;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: cover;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-image: url('https://static.wixstatic.com/media/11062b_9ba09c244a6840c0b3b17c67e8ecc4e2~mv2.jpg/v1/fill/w_1823,h_106,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_9ba09c244a6840c0b3b17c67e8ecc4e2~mv2.jpg');
+  background-size: cover;
+  height: 100px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 30px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+  background-image: url('https://static.wixstatic.com/media/913019_0a07d4cb4b164e38a1507d904347adc8~mv2.jpg/v1/fill/w_1903,h_857,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/913019_0a07d4cb4b164e38a1507d904347adc8~mv2.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.featured-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.featured-item img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-image: url('https://static.wixstatic.com/media/11062b_2d254ff732c24a3bb782ef6801ecd13f~mv2.jpg/v1/fill/w_1903,h_457,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_2d254ff732c24a3bb782ef6801ecd13f~mv2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 30px;
+}
+
+.about-us {
+  flex-basis: 100%;
+  margin-top: 40px;
+}
+
+.about-us h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
